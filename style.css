@@ -1,0 +1,107 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #1e3c72, #2a5298);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    color: white;
+}
+
+.center-box {
+    text-align: center;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 15px;
+    margin: 10px;
+    background: white;
+    color: #2a5298;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.auth-container {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 25px;
+    border-radius: 15px;
+    text-align: center;
+    width: 300px;
+}
+
+.auth-container input {
+    display: block;
+    width: 90%;
+    padding: 10px;
+    margin: 10px auto;
+    border: none;
+    border-radius: 5px;
+}
+
+.auth-container button {
+    background: white;
+    color: #2a5298;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.logout-btn {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    color: #2a5298;
+    cursor: pointer;
+}
+
+/* Music player styles */
+.player {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+    width: 320px;
+}
+
+#cover {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+    animation: spin 6s linear infinite;
+    animation-play-state: paused;
+}
+
+@keyframes spin {
+    100% { transform: rotate(360deg); }
+}
+
+.controls button {
+    background: white;
+    border: none;
+    color: #2a5298;
+    font-size: 20px;
+    margin: 0 8px;
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+#progress {
+    width: 100%;
+    margin: 10px 0;
+}
+
+.volume-control {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
